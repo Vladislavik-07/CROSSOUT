@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-image: url(/html/img/bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.land__logo {
+  position: absolute;
+  left: 0;
+  top: 8.5vh;
+  width:  100%;
+  text-align: center;
+}
+
+.land__logo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.land__buttons-w {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.land__buttons {
+  width: 1804px;
+  height: 555px;
+  margin-top: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.land__buttons-play {
+  height: 5vw;
+  margin-left: 33vw;
+  margin-bottom: 1vh;
+  background-image: url(/html/img/pc.png);
+  background-repeat: no-repeat;
+} 
+
+.land__buttons-platforms {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ps4-ps5 {
+  padding-top: 5px;
+  margin-left: 18.5vw;
+  margin-bottom: -15vh;
+  float: left; /*Задаем обтекание*/ 
+  line-height: 120px; /*Высота строки + верт. центрирования текста*/ 
+  font-size: 40px; 
+  color: white; 
+  margin-top: 60px; 
+  width: 475px; /*Фиксируем ширину блока*/ 
+  margin-right: 10px; 
+  border: solid 3px white;
+}
+
+.xbox {
+  padding-top: 5px;
+  margin-left: 1.7vw;
+  margin-bottom: -15vh;
+  float: left; /*Задаем обтекание*/ 
+  line-height: 120px; /*Высота строки + верт. центрирования текста*/ 
+  font-size: 40px; 
+  color: white; 
+  margin-top: 60px; 
+  width: 575px; /*Фиксируем ширину блока*/ 
+  margin-right: 10px; 
+  border: solid 3px white;
+
+}
+
+.ps4-ps5:hover {
+  background-color:  rgb(22, 22, 137);
+}
+
+.xbox:hover {
+  background-color: rgb(24, 134, 24);
+}
